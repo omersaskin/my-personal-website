@@ -1,7 +1,5 @@
-
 import Header from "../Header/header"
 import Banner from "../Banner/banner"
-import BrandSlider from "../Brand/brand"
 import About from "../About/about"
 import ServiceList from "../Service/service"
 import SkillList from "../Skills/skill"
@@ -19,7 +17,6 @@ export default function Krinky() {
             <Header/>
                 <main className="wrapper">
                     <Banner/>
-                    <BrandSlider/>
                     <About/>
                     <ServiceList/>
                     <SkillList/>
